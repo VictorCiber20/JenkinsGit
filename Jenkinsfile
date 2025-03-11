@@ -1,3 +1,5 @@
+Groovy
+
 pipeline {
 agent any
 stages {
@@ -30,4 +32,3 @@ sh 'echo "Ejecutando despliegue de ejemplo"'
 }
 }
 }
-Reemplaza TU_UR
