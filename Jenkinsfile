@@ -11,8 +11,7 @@ git credentialsId: 'credenciales-github', url: 'https://github.com/VictorCiber20
 stage('Construcción') {
 steps {
 echo 'Construyendo...'
-# Aquí puedes agregar los pasos de construcción de tu
-proyecto
+# Aquí puedes agregar los pasos de construcción de tu proyecto
 sh 'echo "Ejecutando un script de ejemplo"'
 }
 }
