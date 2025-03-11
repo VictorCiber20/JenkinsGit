@@ -3,8 +3,7 @@ agent any
 stages {
 stage('Checkout') {
 steps {
-git credentialsId: 'credenciales-github', url:
-'TU_URL_DE_REPOSITORIO_GITHUB'
+git credentialsId: 'credenciales-github', url: 'https://github.com/VictorCiber20/JenkinsGit.git'
 }
 }
 stage('Construcción') {
